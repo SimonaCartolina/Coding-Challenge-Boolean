@@ -2,18 +2,32 @@ body{
   box-sizing: border-box;
   background-image:url("background.jpg");
   background-size: cover;
+  width: 1000px;
+  margin: auto;
+  padding:50px;
 }
 
 main{
-  border-size:border-box;
+
   background-color:#00000080;
   border-radius: 5%;
   margin: auto;
   padding: 50px;
 }
+header{
+  text-align: center;
+}
 
-#container, body{
-  box-sizing: border-box;
+h1{
+  color:#7FFF00;
+  font-family:Sans-serif;
+}
+
+article, h3{
+  color:white;
+}
+
+#container{
   width: 1000px;
   margin: auto;
   padding:50px;
@@ -22,25 +36,20 @@ main{
 img{
      width: 400px;
      height: 200px;
-     border: 200px;
     }
 
-  h1{
-    color:#7FFF00;
-    font-family:Sans-serif;
-  }
-
-.botton1, .botton2, .botton3, input, h3{
+.botton1, .botton2, .botton3, h3{
   display: inline-block;
 }
 
-article, h3{
-  color:white;
+.blocco{
+  display: block;
 }
 
 #pulsanti{
  background-color: #7FFF00;
  padding:10px;
+ text-align: center;
 }
 
 .statocaricauno{
